@@ -15,3 +15,7 @@ __pycache__/
 # OS 파일
 .DS_Store
 Thumbs.db
+
+docs/
+
+easy_ocr_no_pull.py

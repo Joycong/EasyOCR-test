@@ -14,6 +14,20 @@ EasyOCR와 OpenCV, Pillow(PIL)를 활용하여 이미지 속 텍스트를 인식
 
 ---
 
+## 🛠️ 주요 라이브러리
+
+- Python 3.8+
+- EasyOCR
+- OpenCV
+- Pillow (PIL)
+
+설치:
+```bash
+pip install easyocr opencv-python pillow
+```
+
+---
+
 ## 🖼️ 예시 흐름
 
 1. `images/` 폴더에 이미지 파일을 넣고,
@@ -31,20 +45,6 @@ python easy_ocr.py -i images/sample.jpg -l ko,en -g -1
 
 - **전처리**: 흐린 배경 제거 및 텍스트 대비 향상을 위해 thresholding 적용
 - **후처리**: `BRCAI` → `BRCA1`, `보험고드` → `보험코드` 등 교정 사전 기반 자동 수정
-
----
-
-## 🛠️ 주요 라이브러리
-
-- Python 3.8+
-- EasyOCR
-- OpenCV
-- Pillow (PIL)
-
-설치:
-```bash
-pip install easyocr opencv-python pillow
-```
 
 ---
 
@@ -67,7 +67,7 @@ pip install easyocr opencv-python pillow
 
 ---
 
-## 📬 제작자
+## 📬 개발자
 
-- 우진 (Joycong)  
+- 전우진 (Joycong)  
 - [GitHub 프로필](https://github.com/Joycong)
